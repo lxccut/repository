@@ -1,5 +1,5 @@
 import java.util.Stack;
-
+//该文件已经被改动
 class Solution {
 
     public boolean isValid(String s) {
@@ -26,7 +26,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-
+        //测试程序
         System.out.println((new Solution()).isValid("()[]{}"));
         System.out.println((new Solution()).isValid("([)]"));
     }
